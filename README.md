@@ -47,6 +47,9 @@ The project only has a very basic layout and two routes set up. Both are using t
 2. When you click a pokémon entry on the startpage, it should link to `/pokemon/[pokemon]`. There is a route prepared for that
 3. On that page, we want to render all the details of the pokémon. It should look like a little datasheet/enclopedia entry of that pokémon. Render an image, display the type, base stats, etc. It doesn't need to be _all_ the details. Just a enough to make it look like a fun Pokédex entry.
 
+![starpage wireframe](./docs/startpage-wireframe.png)
+![pokemon details wireframe](./docs/pokemon-details-wireframe.png)
+
 These are the basic tasks to show that you can navigate an unfamiliar repository, you know basic layouting and how to work with an API.
 
 In your remaining time, show us what else you can do. Here is a list of things that would impress us:
