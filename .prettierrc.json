@@ -1,0 +1,21 @@
+{
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "trailingComma": "es5",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false,
+  "importOrder": [
+    "",
+    "^next(.*)$",
+    "",
+    "^@/components/(.*)$",
+    "",
+    "",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderGroupNamespaceSpecifiers": true,
+  "arrowParens": "avoid"
+}
