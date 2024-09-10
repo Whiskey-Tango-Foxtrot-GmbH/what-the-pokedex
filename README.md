@@ -43,6 +43,8 @@ The project only has a very basic layout and two routes set up. Both are using t
 
 **HINT**: You'll see that we are `console.log`ing the fetched data, but it's not showing up in your dev tools in the browser. That's because the `Page` components are server components and you'll find the log output in the terminal where you started the app with `yarn dev`.
 
+Make a new branch in git. Open a draft PR in Github once you have accumulated a few commits.
+
 1. On the startpage (route `/`), display a list of the first 25 pokémon that the API spits out. The list should consist of clickable elements. Bonus points if it's a nice looking grid of elements with a picture of each pokémon.
 2. When you click a pokémon entry on the startpage, it should link to `/pokemon/[pokemon]`. There is a route prepared for that
 3. On that page, we want to render all the details of the pokémon. It should look like a little datasheet/encylopedia entry of that pokémon. Render an image, display the type, base stats, etc. It doesn't need to be _all_ the details. Just a enough to make it look like a fun Pokédex entry.
