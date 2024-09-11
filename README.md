@@ -30,6 +30,11 @@ We configured this repository to make use of the newest Next.js/React features:
 
 - Next.js [App Router](https://nextjs.org/docs/app). This is important to know. If you look something up in the Next.js docs, make sure it says "Using App Router" (NOT Pages Router) in the upper left corner.
 - [Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components). This might be a tricky concept if you're new to it. The basic thing in practice for this little imaginary project is: components that have client interactions (button clicks, states or any React hook) need to be explicitly declared with a `"use client"` declaration at the top of the file. By default, all components are server components. A `page.tsx` should almost always be a server component and handle the data retrieval.
+- The project is set up with [Tailwind CSS](https://tailwindcss.com/docs/utility-first). We encourage you to leverage this for styling your components and layouts
+
+We know that this tech stack might be unfamiliar to you and you might have to do a bit of researching. This might limit how much code you can output. Don't worry about it!
+
+This is intentional and part of the challenge. Your biggest asset in frontend development is your curiosity and love for learning new things.
 
 ## The Tasks
 
@@ -47,7 +52,7 @@ Make a new branch in git. Open a draft PR in Github once you have accumulated a 
 
 1. On the startpage (route `/`), display a list of the first 25 pokémon that the API spits out. The list should consist of clickable elements. Bonus points if it's a nice looking grid of elements with a picture of each pokémon.
 2. When you click a pokémon entry on the startpage, it should link to `/pokemon/[pokemon]`. There is a route prepared for that
-3. On that page, we want to render all the details of the pokémon. It should look like a little datasheet/encylopedia entry of that pokémon. Render an image, display the type, base stats, etc. It doesn't need to be _all_ the details. Just a enough to make it look like a fun Pokédex entry.
+3. On that page, we want to render all the details of the pokémon. It should look like a little datasheet/encylopedia entry of that pokémon. Render an image, display the type, base stats, etc. It doesn't need to be _all_ the details. Just enough to make it look like a fun Pokédex entry.
 
 ![starpage wireframe](./docs/startpage-wireframe.png)
 ![pokemon details wireframe](./docs/pokemon-details-wireframe.png)
