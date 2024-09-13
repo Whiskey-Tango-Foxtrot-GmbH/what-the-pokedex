@@ -85,3 +85,8 @@ Once you're done with your challenge, just push your latest commit and mark the 
 When you visit us in our office, there will be a 90 minute pair programming session with one or two of our devs. We will use your PR as a basis for the session. We will ask you about your code and implementation decisions. We will also ask you to build 1 or 2 more features in this codebase.
 
 We don't expect you to deliver perfect code on the spot. We aim to have a "natural" pairing session and we'll discover the solutions together. The purpose of this pairing session will be to get to know you professionally, how you think and approach problems and how you collaborate.
+
+### Improvements
+
+Fix shift in layout when interacting with the search input field 😓
+Styling of the pokemon details page
